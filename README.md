@@ -1,55 +1,70 @@
-# Karens
+# Getting Started with Create React App
 
-Welcome to the Karens repository!
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## About Karens Coin
+## Available Scripts
 
-Karens Coin is a meme token project inspired by the cultural phenomenon of "Karen" and the humor surrounding it. With Karens Coin, our team of managers will be on standby 24/7, ready to listen to Karens' demands and provide the impeccable customer service they deserve...or at least a good laugh!
+In the project directory, you can run:
 
-## Tokenomics
+### `npm start`
 
-- **Total Supply:** 100 billion Karens
-- **Initial Liquidity Pool:** 
-- **Development Team Allocation:** 1% of the total supply will be allocated to the development team responsible for managing the website and other administrative tasks of the project.
-- **Deflationary Model:** Karens Coin operates on a deflationary model, with a limited supply designed to increase scarcity over time.
-- **Automatic Redistribution:** Holders of Karens Coin will be rewarded in the second phase of the project. So, don't be late and fill your pockets with Karens coins as much as you can. 
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Features
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-- **Meme Token:** Karens Coin is a meme token that celebrates the humor of 21. century Karen culture.
-- **Community-Driven:** Join our community channels to engage with fellow Karen enthusiasts, share memes, and participate in events and giveaways.
+### `npm test`
 
-## Accessing the Website
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-The Karens Coin website can be accessed [here](https://your-website-url.com).
+### `npm run build`
 
-## Accessing the Smart Contract
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The smart contract code for Karens Coin can be found in the `contracts` directory of this repository.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## Getting Started
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-To deploy Karens Coin to the Binance Smart Chain (BSC) Mainnet, follow these steps:
+### `npm run eject`
 
-1. Navigate to the project directory:
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-```bash
-cd karens
-```
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-2. Customize and configure the token parameters in the smart contract files (`KarensCoin.sol`).
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-3. Compile the smart contracts:
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-```bash
-npx hardhat compile
-```
+## Learn More
 
-4. Deploy the smart contracts to the BSC Mainnet using Hardhat or your preferred deployment tool.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-5. Interact with the deployed contract on the BSC Mainnet using wallets like MetaMask or Trust Wallet.
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-You can copy and paste this entire section into your README file! Let me know if you need any further assistance.
+### Code Splitting
 
-## Background image
-The Karens Coin website background image: W3 (http://www.w3.org/2000/svg).
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
