@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# Karens
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Karens repository!
 
-## Available Scripts
+## About Karens Coin
 
-In the project directory, you can run:
+Karens Coin is a meme token project inspired by the cultural phenomenon of "Karens" and the humor surrounding it. With Karens Coin, our team of managers will be on standby 24/7, ready to listen to Karens' demands and provide the impeccable customer service they deserve...or at least a good laugh!
 
-### `npm start`
+## Tokenomics
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Total Supply:** 100 billion Karens
+- **Initial Liquidity Pool:** 
+- **Development Team Allocation:** 1% of the total supply will be allocated to the development team.
+- **Decentralized and Centralized Exchanges Allocation:** 99% will be for public. It will be allocated to the pools of Defi&Cefi platforms. 
+**Management:** Allocation and minting process will be managed by development team. Once all allocation process finishes, the owner will be removed (owner will be set to address(0)). Project team will only manage website and related social platforms.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Meme Token:** Karens Coin is a meme token that celebrates the humor of 21. century Karen culture.
+- **Community-Driven:** Join our community channels to engage with fellow Karen enthusiasts, share memes, and participate in events and giveaways.
 
-### `npm run build`
+## Accessing the Website
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The Karens Coin website can be accessed [here](https://your-website-url.com).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Accessing the Smart Contract
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The smart contract code for Karens Coin can be found in the `contracts` directory of this repository.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Background image
+The Karens Coin website background image: W3 (http://www.w3.org/2000/svg).
+Karens coin hair symbol: Free public art
+Karens coin hair symbol effect: Befunky (https://www.befunky.com/create/photo-to-cartoon/)
