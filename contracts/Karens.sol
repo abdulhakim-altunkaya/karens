@@ -4,12 +4,13 @@ pragma solidity ^0.8.24;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Capped.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
 
-//No flavor of uint will be used. The deployment cost and function call cost of using different uints are minimal for this project.
+//No flavors of uint will be used. The cost of using different uints is minimal for this project.
 
-contract Karens is ERC20Capped {
+contract Karens is Ownable, ERC20Capped {
 
-
+    /*
     //OWNER BLOCK
     //Scan website and hardhat compiles the same contract differently. One of them requires
     //the initiation of Ownable contract in constructor area, and hardhat gives error if I do so.
@@ -24,13 +25,14 @@ contract Karens is ERC20Capped {
     function transferOwnership(address _newOwner) external onlyOwner{
         owner = _newOwner;
     }
+    */
 
 
     //creating token based on lazy minting capped model
-    //cap will be set to 1.000.000.000 (1 billion)
-    //10% early investors, 60% exchanges, 5% developers, 1% free giving, 24% Treasury(grants, projects, etc)
-    constructor(uint _cap) ERC20("TestWBNB", "TWBNB") ERC20Capped(_cap*(10**18)) {
-        owner = msg.sender;
+    //cap will be set to 100.000.000.000 (100 billion)
+    //1% project team, The rest is for public.
+    constructor(uint _cap) ERC20("Karens", "KRN") ERC20Capped(_cap*(10**18)) {
+        
     }
 
     //*****FREE TOKENS*****
@@ -50,6 +52,8 @@ contract Karens is ERC20Capped {
 
     //*******SIDE FUNCTIONS*******
     //burn token function, open to anybody, decimals handled for easy frontend integration
+    //After successful launch of the project, a burn website will be created to burn tokens and 
+    //add more value to the remaining tokens.
     function burnToken(uint _amount) external {
         require(_amount > 0, "Enter an amount to burn");
         require(uint(balanceOf(msg.sender)) > 0, "You dont have tokens to burn");
